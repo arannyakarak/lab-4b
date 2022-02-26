@@ -2,19 +2,32 @@ h1 {
     text-align: center;
   }
   
-  img {
-    display: block;
+  img  {
+    width:100% ;
+    height:100% ;
+    display:block;
   }
-  
+  .pic{
+    max-width:70%;
+    height:auto;
+    position: relative;
+    display:block;
+    margin:0 auto;
+  }
   .slides {
-    width:400px;
+    max-width:600px;
+    height: 400px;
     margin:auto;
   }
   
   .slides figure {
     margin:0;
+    text-align: center;
   }
   
   .slides .nxt {
     float:right;
+  }
+  .slides .prev {
+    float:left;
   }
