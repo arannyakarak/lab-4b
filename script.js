@@ -1,8 +1,9 @@
-const baseURL = 'https://assets.codepen.io/2538893/';
+
+const baseURL = 'images/';
     const nxt = document.querySelector('.nxt');
     const prev = document.querySelector('.prev');
     const slide = document.querySelector('.pic');
-    const cars = ['car1.jpg', 'car2.jpg', 'car3.jpg', 'car4.jpg'];
+    const cars = ['car-1.jpg', 'car-2.jpg', 'car-3.jpg', 'car-4.jpg'];
     let index = 0;
     
     nxt.onclick = function(e) {
